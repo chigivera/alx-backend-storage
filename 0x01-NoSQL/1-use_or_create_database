@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Uses or creates the my_db database
+mongosh --eval "use my_db" 

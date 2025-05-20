@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Counts documents in the school collection
+mongosh --eval 'db.school.countDocuments()' 

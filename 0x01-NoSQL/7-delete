@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Deletes documents with name ALX School
+mongosh --eval 'db.school.deleteMany({ name: "ALX School" })' 

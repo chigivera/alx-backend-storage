@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Lists all documents in the school collection
+mongosh --eval 'db.school.find()' 

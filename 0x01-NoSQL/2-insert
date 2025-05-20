@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Inserts a document with name ALX
+mongosh --eval 'db.school.insertOne({ name: "ALX" })' 

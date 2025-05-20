@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Finds documents with name ALX
+mongosh --eval 'db.school.find({ name: "ALX" })' 
